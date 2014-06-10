@@ -1,0 +1,12 @@
+server {
+    server_name yourdomain.com;
+
+    root /your/root/directory;
+    index index.php;
+     
+    location ~ \.php$ {
+        fastcgi_pass unix:/var/run/php5-fpm.sock;
+        include fastcgi_params;
+    }
+
+}
