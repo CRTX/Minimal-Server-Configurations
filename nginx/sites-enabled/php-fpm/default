@@ -8,5 +8,4 @@ server {
         fastcgi_pass unix:/var/run/php5-fpm.sock;
         include fastcgi_params;
     }
-
 }
