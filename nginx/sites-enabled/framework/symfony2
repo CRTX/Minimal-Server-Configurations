@@ -16,5 +16,5 @@ server {
     }
 
     error_log /var/log/nginx/project_error.log;
-    access_log /var/log/nginx/project_ccess.log;
+    access_log /var/log/nginx/project_access.log;
 }
