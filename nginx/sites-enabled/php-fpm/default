@@ -10,6 +10,6 @@ server {
         fastcgi_param SCRIPT_FILENAME $document_root/$fastcgi_script_name;
     }
 
-    error_log /var/log/nginx/your_project.log;
-    access_log /var/log/nginx/your_project.log;
+    error_log /var/log/nginx/your_project_error.log;
+    access_log /var/log/nginx/your_project_access.log;
 }
